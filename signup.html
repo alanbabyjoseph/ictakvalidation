@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/stylesignup.css">
+</head>
+<body background="imageskerala/waya2.webp">
+    <header>
+        <img src="imageskerala/logo new.jpg" alt="logo">
+        <div class="home">
+            <a href="index.html">Home</a>
+            <a href="login.html">LogIn</a>
+            <a href="signup.html">Sign Up</a>
+        </div>
+
+    </header>
+    <form action="districts.html" class="log" onsubmit="return svalidate()">
+            
+            <h2>Sign Up</h2>
+            <br>
+            <div class="p-box">
+                
+                <label">Username</label>
+                <br>
+                <br>
+                <input type="email" id="semail" required placeholder="Enter your username">
+            </div>
+            <br>
+            <div class="p-box">
+                <label>Create Password</label>
+                <br>
+                <br>
+                <input type="password" required id="password1" onkeyup="isGood(this.value)" placeholder="Enter the password">
+                
+            </div>
+            <br>
+            <div class="p-box">
+                <label>Re-Enter Password</label>
+                <br>
+                <br>
+                <input type="password" id="password2" required  placeholder="Re-enter the password">
+                
+            </div>
+            <br>
+            <div class="p-box">
+                <label>Phone Number</label>
+                <br>
+                <br>
+                <input type="number" id="phone" required placeholder="Enter the phone number">
+                
+            </div>
+            <br>
+            <div class="butt">
+                <button>Sign Up</button>
+
+            </div>
+            
+        
+        
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.1.18/jquery.backstretch.min.js" integrity="sha512-bXc1hnpHIf7iKIkKlTX4x0A0zwTiD/FjGTy7rxUERPZIkHgznXrN/2qipZuKp/M3MIcVIdjF4siFugoIc2fL0A==" crossorigin="anonymous"></script>
+        <script src="js/form1.js"></script>
+        
+</body>
+</html>

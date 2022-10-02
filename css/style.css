@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    background-size: cover;
+}
+header{
+    background-color:rgba(255,255,255,0.7);
+    
+}
+img{
+    margin-left: 3%;
+    margin-top: 0.2%;
+}
+.home {
+    float: right;
+    margin-top:2.5%;
+    margin-right: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    border:2px solid black;
+    padding: 8px;
+    margin-right: 10px;
+
+}
+.home a:hover{
+    background-color: black;
+    color:white;
+    transition: 0.3s ease-in-out;
+}
+.very {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 4.6%;
+    margin-left: 4.6%;
+    margin-right: 4.6%;
+    padding-top:  0.4%;
+    padding-left: 0.4%;
+    padding-right: 0.4%;
+    padding-bottom: 0.4%;
+    text-align: justify;
+    background-color:rgba(255,255,255,0.4);
+    border-radius: 14px;
+
+}
+.very h1{
+    font-weight: bolder;
+}
+.very a{
+    color:crimson;
+}
+.very p{
+    font-weight:bold;
+    
+}
+.very a{
+    text-decoration :none;
+
+}
